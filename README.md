@@ -53,7 +53,7 @@ To open it in the browser, in the project directory, run:
 
 ## IMPORTANT!!!
 Your rails application must running in the background. You will need to disable 
-Cross-Origin Resource Sharing (CORS) to be able to fetch the data from local server. Please install [CORS Everywhere](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiPqvKKp4v0AhXl7rsIHRuVAKAQFnoECAMQAQ&url=https%3A%2F%2Faddons.mozilla.org%2Fen-US%2Ffirefox%2Faddon%2Fcors-everywhere%2F&usg=AOvVaw1OOYLLfba3mibDNyTCaZJ7) for Mozilla, or [Allow CORS: Access-Control-Allow-Origin](https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf) if you are Chrome user so you can bypass the CORS rules.
+Cross-Origin Resource Sharing (CORS) to be able to fetch the data from local server. Please install [CORS Everywhere](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiPqvKKp4v0AhXl7rsIHRuVAKAQFnoECAMQAQ&url=https%3A%2F%2Faddons.mozilla.org%2Fen-US%2Ffirefox%2Faddon%2Fcors-everywhere%2F&usg=AOvVaw1OOYLLfba3mibDNyTCaZJ7) for Mozilla, or [Allow CORS: Access-Control-Allow-Origin](https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf) if you are Chrome user, so you can bypass the CORS rules.
 
 ## Author
 
