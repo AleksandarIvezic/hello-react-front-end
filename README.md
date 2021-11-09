@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Hello react front-end
 
-## Available Scripts
+> "Hello react front-end" project is a React app that fetches random greeting from [hello-rails-back-end]() app and renders it through its components.
 
-In the project directory, you can run:
+![screenshot](https://user-images.githubusercontent.com/63932912/140924909-6f3085f0-ff41-4a66-8b7f-6f6aecae6398.png)
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Built With
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- React
+- Redux
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `yarn build`
+To get a local copy up and run the app, follow these simple example steps.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js > 16.13.0
+- npm > 8.1.3
+- yarn > 1.22.15
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Setup
 
-### `yarn eject`
+Clone the repository with:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+git clone git@github.com:ShinobiWarior/hello-react-front-end.git
+```
+or download [ZIP file](https://github.com/ShinobiWarior/hello-react-front-end/archive/refs/heads/dev.zip)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Install
+To install all dependencies, run:
+```
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Usage
+To open it in the browser, in the project directory, run:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+ ```
+ npm start
+ ```
+ Choose port 3001 or any other different from 3000 to run your server on it
+ and open `http:localhost:3000/` on your browser.
+ You should be able to see something like this: 
+ 
+ ![image](https://user-images.githubusercontent.com/63932912/140925610-b02b8d1f-7838-4636-8ad1-d5e1e0c061a3.png)
 
-## Learn More
+## IMPORTANT!!!
+Your rails application must be running in the background. You will need to disable 
+Cross-Origin Resource Sharing (CORS) to be able to fetch the data from the local server. Please install [CORS Everywhere](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiPqvKKp4v0AhXl7rsIHRuVAKAQFnoECAMQAQ&url=https%3A%2F%2Faddons.mozilla.org%2Fen-US%2Ffirefox%2Faddon%2Fcors-everywhere%2F&usg=AOvVaw1OOYLLfba3mibDNyTCaZJ7) for Mozilla, or [Allow CORS: Access-Control-Allow-Origin](https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf) if you are a Chrome user, so you can bypass the CORS rules.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Author
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+👤 **Aleksandar Ivezic**
 
-### Code Splitting
+- GitHub: [@Aleksandar Ivezic](https://github.com/ShinobiWarior)
+- Twitter: [@AIvezic](https://twitter.com/AIvezic)
+- LinkedIn: [Aleksandar Ivezic](https://www.linkedin.com/in/aleksandar-ivezic/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🤝 Contributing
 
-### Analyzing the Bundle Size
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Feel free to check the [issues page](https://github.com/ShinobiWarior/hello-react-front-end/issues).
 
-### Making a Progressive Web App
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Give a ⭐️ if you like this project!
 
-### Advanced Configuration
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- This project was inspired by [Microverse](https://www.microverse.org/?grsf=w9rx3c)
 
-### Deployment
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](https://github.com/ShinobiWarior/hello-react-front-end/blob/setup/LICENSE) licensed.
